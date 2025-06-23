@@ -8,7 +8,7 @@ const HeroSection = () => {
         {/* Left Column: Text Content */}
         <div>
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-[350px]0 dark:text-white mb-4">
-            Hi, I'm <span className="text-blue-600 dark:text-blue-400">John Doe</span>
+            Hi, I'm <span className="text-blue-600 dark:text-blue-400">Younus</span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 font-medium mb-2">
             🚀 Digital Marketer & Growth Strategist
