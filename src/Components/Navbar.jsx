@@ -1,4 +1,5 @@
 import React from 'react';
+import ResumeButton from './Button/ResumeBtn';
 
 const Navbar = () => {
     const links = <>
@@ -23,7 +24,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-3xl font-bold">DM Younus</a>
+                    <a className="btn btn-ghost text-3xl font-bold">DM YOUNUS</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-2 text-xl">
@@ -31,7 +32,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-outline">Button</a>
+                    <ResumeButton/>
                 </div>
             </div>
         </div>
