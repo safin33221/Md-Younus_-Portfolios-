@@ -2,11 +2,11 @@ import React from 'react';
 import profile from '../assets/profile.jpg'
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center bg-gray-50 dark:bg-gray-950 text-gray-800 px-6 lg:px-16 py-12 transition-colors duration-300">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="py-10 flex items-center bg-gray-50 dark:bg-gray-950 text-gray-800 px-6 lg:px-16 py-12 transition-colors duration-300">
+      <div className="container mx-auto flex flex-col-reverse md:flex-row  gap-12 items-center">
         
         {/* Left Column: Text Content */}
-        <div>
+        <div className='md:w-1/2 mx-auto'>
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-[350px]0 dark:text-white mb-4">
             Hi, I'm <span className="text-blue-600 dark:text-blue-400">Younus</span>
           </h1>
@@ -26,7 +26,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Column: Profile Image */}
-        <div className="flex justify-center">
+        <div className="flex justify-center md:w-1/2 mx-auto">
           <img
             src={profile}
             alt="Digital Marketer Profile"
