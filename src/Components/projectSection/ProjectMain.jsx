@@ -6,7 +6,7 @@ import ProjectText from "./ProjectText";
 
 const ProjectMain = () => {
   return (
-     <div id="projects" className="max-w-[1200px] mx-auto px-4">
+     <div id="projects" className="max-w-[1400px] mx-auto px-4">
       <motion.div
         variants={fadeIn("top", 0)}
         initial="hidden"

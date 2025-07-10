@@ -5,6 +5,7 @@ import AboutSection from './Components/About';
 import SkillsSection from './Components/Skill';
 import ExperienceMain from './Components/ExperienceSection/ExperienceMain';
 import ProjectMain from './Components/projectSection/ProjectMain';
+import ContactMain from './Components/contact/ContactMain';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <ProjectMain />
 
         {/* contact me */}
+        <ContactMain />
 
         {/* footer */}
       </main>
