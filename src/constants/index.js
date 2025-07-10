@@ -62,3 +62,22 @@ export const projects = [
     link: "#",
   },
 ];
+
+export const footerLinks = [
+    {
+      name: "About Me",
+      section: "about",
+    },
+    {
+      name: "Skills",
+      section: "skills",
+    },
+    {
+      name: "Experience",
+      section: "experience",
+    },
+    {
+      name: "Projects",
+      section: "projects",
+    },
+  ];
