@@ -31,3 +31,34 @@ export const experiences = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    name: "Social Media Growth for Local Business",
+    year: "Mar2022",
+    align: "right",
+    image: "/images/website-img-1.jpg",
+    link: "#",
+  },
+  {
+    name: "YouTube Channel Setup",
+    year: "Sept2022",
+    align: "left",
+    image: "/images/website-img-2.webp",
+    link: "#",
+  },
+  {
+    name: "Add Running",
+    year: "Jan2023",
+    align: "right",
+    image: "/images/website-img-3.jpg",
+    link: "#",
+  },
+  {
+    name: "SEO In Website",
+    year: "May2024",
+    align: "left",
+    image: "/images/website-img-4.jpg",
+    link: "#",
+  },
+];

@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection';
 import AboutSection from './Components/About';
 import SkillsSection from './Components/Skill';
 import ExperienceMain from './Components/ExperienceSection/ExperienceMain';
+import ProjectMain from './Components/projectSection/ProjectMain';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <ExperienceMain />
 
         {/* project */}
+        <ProjectMain />
 
         {/* contact me */}
 
