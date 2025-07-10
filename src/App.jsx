@@ -6,7 +6,7 @@ import SkillsSection from './Components/Skill';
 
 import ProjectMain from './Components/projectSection/ProjectMain';
 import ContactMain from './Components/contact/ContactMain';
-import Footer from './Components/footer/footer';
+import Footer from './Components/footer/Footer'
 import ExperienceMain from './Components/experienceSection/ExperienceMain';
 
 const App = () => {
