@@ -9,7 +9,8 @@ import ContactMain from './Components/contact/ContactMain';
 
 import ExperienceMain from './Components/experienceSection/ExperienceMain';
 import Navbar from './Components/Navbar';
-import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer';
+
 
 
 const App = () => {
