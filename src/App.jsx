@@ -15,11 +15,11 @@ import Footer from './Components/Footer';
 
 const App = () => {
   return (
-    <div>
+ 
     
       <main className='dark:bg-gray-950'>
-        <Navbar />
         {/* hero */}
+        <Navbar />
         <HeroSection />
         {/* about us */}
         <AboutSection />
@@ -38,7 +38,7 @@ const App = () => {
         {/* footer */}
         <Footer />
       </main>
-    </div>
+
   );
 };
 
