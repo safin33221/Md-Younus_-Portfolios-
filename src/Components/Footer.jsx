@@ -1,5 +1,6 @@
-import { footerLinks } from '../../constants';
+
 import { Link } from 'react-scroll';
+import { footerLinks } from '../constants';
 
 const Footer = () => {
   return (
