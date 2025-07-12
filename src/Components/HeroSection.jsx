@@ -2,7 +2,7 @@ import React from 'react';
 import profile from '../assets/profile.jpg'
 const HeroSection = () => {
   return (
-    <section id='hero' className="flex items-center bg-gray-50 dark:bg-gray-950 text-gray-800 px-6 lg:px-16 py-12 transition-colors duration-300">
+    <section id='home' className="flex items-center min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-800 px-6 lg:px-16 py-12 transition-colors duration-300">
       <div className="container mx-auto flex flex-col-reverse md:flex-row  gap-12 items-center">
         
         {/* Left Column: Text Content */}

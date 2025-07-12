@@ -65,6 +65,10 @@ export const projects = [
 
 export const footerLinks = [
     {
+      name: "Home",
+      section: "home",
+    },
+    {
       name: "About Me",
       section: "about",
     },

@@ -31,7 +31,9 @@ background-color: rgb(25, 34, 46);
   min-height: 100vh;
 } */
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 

@@ -1,14 +1,22 @@
-import React from 'react';
 
-const SectionTitle = ({ title, subtitle }) => {
+import { motion } from "framer-motion";
+import { fadeIn } from '../framerMotion/variants';
+// ...existing code...
+const SectionTitle = ({ title }) => {
   return (
     <div className="text-center mb-12 px-4 sm:px-6">
-      <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-white mb-2">
-        {title}_
-      </h1>
-      <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
-        {subtitle}
-      </p>
+
+      <motion.div
+        variants={fadeIn("down", 0)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.7 }}
+      >
+        <div className="flex flex-col items-center mt-[50px] ">
+          <h2 className="text-6xl text-cyan-500 mb-10 md:mb-16 lg:mb-20 font-bold">{title}</h2>
+        </div>
+      </motion.div>
+
     </div>
   );
 };

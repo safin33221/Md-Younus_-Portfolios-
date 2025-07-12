@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="px-4">
       <div className="w-full h-[1px] bg-gray-500 mt-24"></div>
       <div className="md:flex justify-between mt-4 max-w-[1400px] mx-auto hidden">
-        <p className="text-3xl text-gray-500 ">DM Younus </p>
+        <p className="text-3xl text-gray-100 ">DM Younus </p>
         <ul className="flex gap-4 text-gray-500 text-xl">
           {footerLinks.map((item, index) => {
             return (

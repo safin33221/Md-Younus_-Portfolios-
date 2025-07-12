@@ -11,7 +11,7 @@ const ContactRight = () => {
       <img
         src={emailImage}
         alt="email image"
-        className="max-w-[300px]"
+        className="max-w-[100px]"
       />
       <div className="flex flex-col gap-4">
         {/* email address */}

@@ -3,7 +3,8 @@ import ExperienceText from './ExperienceText'
 import ExperienceTop from './ExperienceTop'
 import { motion } from "framer-motion";
 import { fadeIn } from '../framerMotion/variants';
-import AllExperience from './AllExperience';
+import SectionTitle from '../common/SectionTitle';
+
 
 const ExperienceMain = () => {
   return (
@@ -14,7 +15,7 @@ const ExperienceMain = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.7 }}
       >
-        <ExperienceText />
+        <SectionTitle title={`Exprience`}/>
       </motion.div>
       <motion.div
         variants={fadeIn("down", 0.5)}
