@@ -59,9 +59,6 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <ResumeButton />
-                <button className='btn' onClick={() => {
-                    console.log('clicked');
-                }}>on</button>
             </div>
         </div>
 

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { projects } from "../../constants";
 import SingleProject from "./SingleProject";
-import { fadeIn } from "../framerMotion/variants";
+
 
 import SectionTitle from "../common/SectionTitle";
 
