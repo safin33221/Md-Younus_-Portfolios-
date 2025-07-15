@@ -3,7 +3,7 @@ import profile from '../assets/profile.jpg';
 
 const HeroSection = () => {
   return (
-    <section
+    <div
       id="home"
       className="flex items-center mt-10 min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-gray-100 transition-colors duration-300"
     >
@@ -39,7 +39,7 @@ const HeroSection = () => {
           />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
