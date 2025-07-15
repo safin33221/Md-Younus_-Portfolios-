@@ -1,9 +1,10 @@
 import React from 'react';
-
+import resume from '../../assets/DM_YOUNUS_RESUME.pdf'
 const ResumeButton = () => {
     return (
 
         <button
+
             className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-indigo-600 rounded-md group"
         >
             <span
@@ -25,7 +26,7 @@ const ResumeButton = () => {
             ></span>
             <span
                 className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white"
-            >Resume</span>
+            ><a href={resume} target='_blank' download={resume}>Resume</a></span>
         </button>
 
     );

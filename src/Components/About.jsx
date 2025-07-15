@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import SectionTitle from './common/SectionTitle';
 import { fadeIn } from './framerMotion/variants';
@@ -17,7 +18,7 @@ const AboutSection = () => {
           {/* Left Column: Text Content */}
           <div>
             <p className="text-lg mb-6 leading-relaxed text-gray-700 dark:text-gray-300">
-              I'm <span className="font-semibold text-blue-600 dark:text-blue-400">John Doe</span>, a passionate digital marketer with 5+ years of experience in helping brands grow online. I specialize in SEO, social media strategy, email marketing, and conversion optimization. My mission is to craft data-driven strategies that deliver measurable results.
+              I am a professional digital marketer specializing in social media marketing, SEO, content creation, and online advertising. I help businesses grow their brand, boost engagement, and increase sales through result-driven digital strategies. Explore my portfolio to see creative, effective, and data-backed marketing solutions tailored for various industries.
             </p>
             <ul className="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
               <li>🔍 SEO & Content Strategy</li>
