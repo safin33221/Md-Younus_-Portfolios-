@@ -10,6 +10,7 @@ import ContactMain from './Components/contact/ContactMain';
 import ExperienceMain from './Components/experienceSection/ExperienceMain';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import ProjectsSlide from './Components/ProjectSlide/ProjectsSlide';
 
 
 
@@ -31,6 +32,7 @@ const App = () => {
 
         {/* project */}
         <ProjectMain />
+        <ProjectsSlide/>
 
         {/* contact me */}
         <ContactMain />

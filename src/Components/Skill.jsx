@@ -23,7 +23,7 @@ const interpersonalSkills = [
 
 export default function SkillsShowcase() {
   return (
-    <section id="skills" className="py-12  px-4    mx-auto">
+    <section id="skills" className="  px-4    mx-auto">
       <SectionTitle title={`My Skills`}/>
 
       {/* Technical Skills in Card Grid */}

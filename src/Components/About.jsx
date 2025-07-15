@@ -10,7 +10,7 @@ const AboutSection = () => {
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
     >
-      <section id="about" className="bg-white dark:bg-gray-950 text-gray-800 dark:text-gray-100 px-6 lg:px-16 py-5 transition-colors duration-300">
+      <section id="about" className="bg-white dark:bg-gray-950 text-gray-800 dark:text-gray-100 px-6 lg:px-16  transition-colors duration-300">
         <SectionTitle title={'About Me'} />
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
