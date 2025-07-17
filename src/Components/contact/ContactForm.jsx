@@ -35,7 +35,7 @@ const ContactForm = () => {
     //     }
     //   );
 
-    setSuccess("Message Sent Succesfully");
+    setSuccess("Message Sent Successfully");
   };
 
   return (
@@ -47,7 +47,7 @@ const ContactForm = () => {
           name="from_name"
           placeholder="Your Name"
           required
-          className="h-12 rounded-lg bg-stone-700 px-2"
+          className="h-12 rounded-lg bg-zinc-800 text-white px-2"
           value={name}
           onChange={handleName}
         />
@@ -56,7 +56,7 @@ const ContactForm = () => {
           name="from_email"
           placeholder="Your Email"
           required
-          className="h-12 rounded-lg bg-stone-700 px-2"
+          className="h-12 rounded-lg bg-zinc-800 text-white px-2"
           value={email}
           onChange={handleEmail}
         />
@@ -67,7 +67,7 @@ const ContactForm = () => {
           cols="50"
           placeholder="Message"
           required
-          className=" rounded-lg bg-stone-700 p-2"
+          className=" rounded-lg bg-zinc-800 text-white p-2"
           value={message}
           onChange={handleMessage}
         />

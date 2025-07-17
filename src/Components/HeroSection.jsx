@@ -35,7 +35,7 @@ const HeroSection = () => {
           <img
             src={profile}
             alt="Digital Marketer Profile"
-            className="rounded-full shadow-lg w-[400px] h-[400px] object-cover"
+            className="rounded-full shadow-lg w-[350px] h-[350px] md:w-[400px] md:h-[400px] object-cover"
           />
         </div>
       </div>
